@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="favicon.ico" type="images/download.jpeg">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="main">
+        <div id="box">
+            <h2 id ="queBox">This is the dummy question</h2>
+            <div class="row">
+                <input  class="options" id="option1" type="radio" value="a" name="option"/>
+                <label for="">option 1</label>
+            </div>
+            <div class="row">
+                <input class="options" type="radio" id="option2" value="b" name="option"/>
+                <label for="">option 2</label>
+            </div>
+            <div class="row">
+                <input class="options" type="radio" id="option3" value="c" name="option"/>
+                <label for="">option 3</label>
+            </div>
+            <div class="row">
+                <input class="options" type="radio" id="option4" value="d" name="option"/>
+                <label for="">option 4</label>
+            </div>
+            <button class="btn" onclick="submitQuiz()">
+                Submit your answer
+            </button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+/* Notes
+
+-> By giving name property to the input type it allows only selecting one option
+
+
+*/
